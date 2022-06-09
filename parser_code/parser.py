@@ -1,0 +1,2 @@
+def mainp():
+    return('OK')

@@ -1,0 +1,12 @@
+{% extends 'parser_vk_post/base.html' %}
+
+{% block title %} All posts {% endblock %}
+
+
+{% block content %}
+
+    {% for post in posts %}
+        <p>Пост №{{post}} </p>
+    {% endfor %}
+
+{% endblock %}
